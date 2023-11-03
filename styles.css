@@ -1,0 +1,152 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+    height: 1080px; 
+    font-family: 'Original Surfer', sans-serif;       
+}
+
+/*HERO SECTION*/
+#hero-section {
+    background-image: url('images/pg.png');
+    background-size: cover;
+    height: 343px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-title {
+    background: #18799C;
+    border-radius: 10px;
+    padding: 3px 12px;
+    margin: 0 0 10px 0;
+    box-shadow: 0px 0px 55px #C2BFBAff;
+}
+
+#hero-hint {
+    background: #637C48ff;
+    font-size: 19px;
+    padding: 5px 28px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0;
+    box-shadow: 0px 0px 5px #C2BFBAff;
+}
+
+/*ACTIVITIES SECTION*/
+
+#activities-section{
+    height: 343px;
+    background: #18799C;
+    padding: 1px;
+    color: #fff;      
+    text-shadow: 0px 0px 1px black;
+}
+
+.activities-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 198px;
+    height: 226px;
+    text-shadow: 0px 0px 1px black;
+}
+
+.location-img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+/*GUIDE SECTION*/
+
+#guide-section {
+    
+}
+
+#guide-card {
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;   
+    width: 400px;
+    height: 294px;
+    margin: 50px auto;
+    background: #637C48ff;
+    box-shadow: 10px 10px 8px #C2BFBAff;
+    border-radius: 10px;
+    padding: 0 13px 0 13px;
+}
+
+#guide-card:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+#guide-desc {
+    width: 190px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#guide-title {
+    font-size: 24px;   
+}
+
+#guide-text {
+    font-style: italic;  
+}
+
+#guide-img {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
+}
+
+/*HOUSE SECTION*/
+
+#rental-section {
+    height: 330px;
+    background: #18799C;
+    padding: 1px;
+    color: #fff;      
+    text-shadow: 0px 0px 1px black;
+    padding: 20px;
+}
+
+#rental-img {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 30px 0;
+}
+
+.house-img {
+    width: 150px;
+    border-radius: 100%;
+}
+
+.house-img:hover {
+    transform: scale(1.5);
+    transition: .7s;
+}
+
+.cta-btn {
+    background: #637C48ff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 50px;
+    margin: 10px;
+    font-family: inherit;
+}
+
+.cta-btn:hover {
+    box-shadow: 0px 0px 10px white;
+    transform: Scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}
