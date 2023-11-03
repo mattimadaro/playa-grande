@@ -76,7 +76,6 @@ body {
     height: 294px;
     margin: 50px auto;
     background: #637C48ff;
-    box-shadow: 10px 10px 8px #C2BFBAff;
     border-radius: 10px;
     padding: 0 13px 0 13px;
 }
@@ -84,6 +83,7 @@ body {
 #guide-card:hover {
     transform: scale(1.2);
     transition: .5s;
+    box-shadow: 10px 10px 8px #C2BFBAff;
 }
 
 #guide-desc {
