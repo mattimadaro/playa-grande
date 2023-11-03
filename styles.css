@@ -64,10 +64,6 @@ body {
 
 /*GUIDE SECTION*/
 
-#guide-section {
-    
-}
-
 #guide-card {
     display: flex; 
     align-items: center;
